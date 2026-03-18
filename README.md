@@ -1,63 +1,44 @@
 # CAPA Closure Assistant
-**Automating CAPA Triage, Closure Readiness, and Audit Visibility**
+**A Python tool for CAPA triage, closure readiness, and audit visibility**
 
-## 📌 Overview
-The **CAPA Closure Assistant** is a Python-based quality analytics tool designed to help regulated manufacturing and laboratory teams **prioritize, close, and sustain corrective actions**.
+## Overview
+The **CAPA Closure Assistant** is a Python-based analytics tool that helps regulated manufacturing and laboratory teams **prioritize, track, and close CAPAs more effectively**.
 
-The project addresses a common quality-system challenge: CAPAs remain open or are closed prematurely due to missing root cause analysis, incomplete verification, or lack of effectiveness checks.
+It converts CAPA tracker exports into **audit‑ready insights** by identifying overdue items, missing closure elements, and aging trends that commonly lead to repeat audit findings.
 
-This tool converts raw CAPA tracker exports into **actionable, audit‑ready insights** by identifying:
-- Overdue and high‑risk CAPAs
-- Missing closure requirements
-- Aging trends that drive repeat audit findings
-- Ownership and accountability gaps
+> ⚠️ All data used in this repository is **mocked and anonymized** to protect company confidentiality.  
+> The structure, logic, and workflows reflect real quality‑system practices.
 
 ---
 
-## 🎯 Problem Statement
-In regulated environments (food, pharma, laboratory, manufacturing), CAPAs often fail due to:
-- “Check‑the‑box” closures
-- Poor visibility into closure readiness
+## Problem
+In regulated environments, CAPAs frequently remain open or are closed prematurely due to:
+- Incomplete root cause analysis
+- Missing verification or effectiveness checks
 - Manual tracking that does not scale
-- Weak linkage between root cause, corrective action, and effectiveness
+- Limited visibility into closure readiness
 
-These gaps increase audit risk and lead to repeat findings.
-
----
-
-## ✅ Solution
-The CAPA Closure Assistant provides a **data‑driven approach** to CAPA management by:
-
-1. Ingesting CAPA exports (CSV or Excel)
-2. Standardizing inconsistent column names
-3. Calculating CAPA aging and due status
-4. Flagging missing closure elements
-5. Applying a risk‑based triage score
-6. Producing audit‑friendly reports and visuals
+These gaps increase audit risk and drive repeat findings.
 
 ---
 
-## 🧠 Key Features
-- **CAPA Aging Analysis**
-  - Automatically calculates days open
-- **Overdue & Due‑Soon Detection**
-  - Configurable due‑soon threshold (default: 14 days)
-- **Closure Readiness Checks**
-  - Missing owner  
-  - Missing due date  
-  - Missing root cause  
-  - Missing corrective/preventive actions  
-  - Missing verification  
-  - Missing effectiveness check
-- **Risk‑Based Triage Scoring**
-  - Prioritizes CAPAs with the highest compliance risk
-- **Audit‑Friendly Outputs**
-  - Excel reports
-  - Summary charts
-  - Leadership‑ready weekly update text
+## Solution
+This tool provides a **data‑driven approach** to CAPA management by:
+- Calculating CAPA age, due‑soon, and overdue status
+- Flagging missing closure requirements
+- Applying a risk‑based triage score
+- Producing audit‑friendly reports and summaries
 
 ---
 
-## 📊 Outputs
-After execution, the tool generates:
+## Key Outputs
+**Inputs:** The tool consumes a mocked and anonymized CAPA export (CSV or Excel) containing standard fields such as CAPA ID, owner, status, dates, root cause, actions, and verification/effectiveness indicators.
 
+These outputs support CAPA review meetings, audit preparation, and leadership updates.
+
+---
+
+## How to Run
+```bash
+capa --input mock_capa_data.xlsx --outdir outputs
+```
