@@ -9,7 +9,6 @@ from __future__ import annotations
 
 from dataclasses import dataclass
 from datetime import date, timedelta
-from pathlib import Path
 from typing import Dict
 
 import numpy as np
@@ -74,7 +73,12 @@ def generate_mock_capa_data(cfg: MockDataConfig) -> pd.DataFrame:
 
     def stage_flags(st: str) -> Dict[str, str]:
         if st == "PD":
-            return dict(root_cause_complete="N", actions_complete="N", verification_complete="N", effectiveness_complete="N")
+            return dict(
+                root_cause_complete="N",
+                actions_complete="N",
+                verification_complete="N",
+                effectiveness_complete="N",
+            )
         if st == "RC":
             return dict(
                 root_cause_complete=np.random.choice(["Y", "N"], p=[0.65, 0.35]),
@@ -97,7 +101,12 @@ def generate_mock_capa_data(cfg: MockDataConfig) -> pd.DataFrame:
                 effectiveness_complete=np.random.choice(["Y", "N"], p=[0.55, 0.45]),
             )
         if st == "CE":
-            return dict(root_cause_complete="Y", actions_complete="Y", verification_complete="Y", effectiveness_complete="Y")
+            return dict(
+                root_cause_complete="Y",
+                actions_complete="Y",
+                verification_complete="Y",
+                effectiveness_complete="Y",
+            )
 
         return dict(
             root_cause_complete=np.random.choice(["Y", "N"], p=[0.40, 0.60]),
