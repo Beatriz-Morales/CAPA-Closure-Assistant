@@ -1,0 +1,61 @@
+capa_id,title,site,area,owner,status,created_date,due_date,closed_date,root_cause_complete,actions_complete,verification_complete,effectiveness_complete
+CAPA-0001,Calibration tracking gaps,Site A,Operations,Owner C,VE,2026-08-22,2026-10-19,,Y,Y,Y,Y
+CAPA-0002,Training record gaps,Site B,Operations,Owner A,CP,2026-08-01,2026-08-23,,Y,Y,N,N
+CAPA-0003,Temperature log gaps,Site B,QA,Owner E,CE,2026-08-03,2026-09-09,2026-09-01,Y,Y,Y,Y
+CAPA-0004,Label traceability,Site B,Warehouse,Owner B,VE,2026-08-19,2026-10-05,,Y,Y,Y,Y
+CAPA-0005,Temperature log gaps,Site A,Warehouse,Owner B,PD,2026-07-16,2026-08-22,,N,N,N,N
+CAPA-0006,Hold/release timing,Site C,QA,Owner B,CX,2026-08-11,2026-09-15,2026-08-24,Y,N,N,N
+CAPA-0007,Environmental monitoring gaps,Site B,QA,Owner D,VE,2026-09-23,2026-10-15,,Y,Y,Y,N
+CAPA-0008,Label traceability,Site A,QA,Owner C,VE,2026-07-24,2026-08-25,,Y,Y,Y,Y
+CAPA-0009,Deviation documentation,Site C,Operations,Owner E,PD,2026-08-10,2026-09-04,,N,N,N,N
+CAPA-0010,Training record gaps,Site C,IT/QA,Owner C,CP,2026-08-04,2026-09-01,,Y,Y,N,N
+CAPA-0011,Chemical identification gaps,Site B,IT/QA,Owner B,RC,2026-08-11,2026-09-26,,Y,N,N,N
+CAPA-0012,Sanitizer concentration,Site A,IT/QA,Owner A,CE,2026-08-12,2026-09-24,2026-09-15,Y,Y,Y,Y
+CAPA-0013,Deviation documentation,Site B,Operations,Owner A,VE,2026-09-22,2026-11-03,,Y,Y,N,Y
+CAPA-0014,Environmental monitoring gaps,Site B,Micro Lab,Owner B,VE,2026-08-11,2026-09-11,,Y,Y,N,Y
+CAPA-0015,Temperature log gaps,Site A,Operations,Owner E,CP,2026-07-21,2026-09-18,,Y,Y,N,N
+CAPA-0016,Training record gaps,Site B,Micro Lab,Owner C,RC,2026-09-03,2026-09-22,,Y,N,N,N
+CAPA-0017,Sampling SOP update,Site C,Warehouse,Owner E,CP,2026-08-07,2026-09-06,,Y,N,N,N
+CAPA-0018,Sampling SOP update,Site A,Sanitation,Owner A,PD,2026-09-28,2026-10-18,,N,N,N,N
+CAPA-0019,Calibration tracking gaps,Site C,Packaging,Owner A,VE,2026-08-30,2026-09-29,,Y,Y,Y,Y
+CAPA-0020,Hold/release timing,Site A,QA,Owner E,CP,2026-08-22,2026-10-20,,Y,Y,N,N
+CAPA-0021,Sampling SOP update,Site C,QA,Owner A,VE,2026-07-04,2026-08-04,,Y,Y,Y,Y
+CAPA-0022,Calibration tracking gaps,Site B,IT/QA,Owner A,RC,2026-09-11,2026-11-06,,Y,N,N,N
+CAPA-0023,Data backup gaps,Site A,Packaging,Owner C,CX,2026-09-06,2026-10-13,2026-09-20,Y,N,N,N
+CAPA-0024,Equipment list mismatch,Site C,Packaging,Owner E,CE,2026-08-25,2026-10-11,2026-10-14,Y,Y,Y,Y
+CAPA-0025,Data backup gaps,Site A,Operations,Owner D,VE,2026-07-03,2026-08-08,,Y,Y,N,Y
+CAPA-0026,Label traceability,Site B,QA,Owner A,PD,2026-07-16,2026-08-12,,N,N,N,N
+CAPA-0027,Calibration tracking gaps,Site A,Operations,Owner E,CP,2026-09-27,2026-11-16,,Y,Y,N,N
+CAPA-0028,Temperature log gaps,Site C,Operations,Owner E,PD,2026-09-09,2026-11-07,,N,N,N,N
+CAPA-0029,Training record gaps,Site C,Sanitation,Owner E,PD,2026-07-19,2026-08-15,,N,N,N,N
+CAPA-0030,Training record gaps,Site C,QA,Owner E,VE,2026-09-25,2026-11-14,,Y,Y,Y,N
+CAPA-0031,Sampling SOP update,Site B,QA,Owner B,VE,2026-07-15,2026-08-11,,Y,Y,Y,N
+CAPA-0032,Label traceability,Site B,QA,Owner E,CX,2026-09-05,2026-10-22,2026-09-09,N,N,N,N
+CAPA-0033,Temperature log gaps,Site B,Sanitation,Owner B,RC,2026-07-10,2026-08-30,,Y,N,N,N
+CAPA-0034,Deviation documentation,Site C,QA,Owner E,RC,2026-09-04,2026-10-09,,N,N,N,N
+CAPA-0035,Calibration tracking gaps,Site C,Warehouse,Owner C,CP,2026-08-22,2026-10-09,,Y,Y,N,N
+CAPA-0036,Label traceability,Site A,Micro Lab,Owner D,PD,2026-08-02,2026-08-29,,N,N,N,N
+CAPA-0037,Sampling SOP update,Site B,Warehouse,Owner D,PD,2026-09-19,2026-10-07,,N,N,N,N
+CAPA-0038,Equipment list mismatch,Site A,Micro Lab,Owner D,CP,2026-08-11,2026-08-30,,Y,Y,N,N
+CAPA-0039,Calibration tracking gaps,Site A,Sanitation,Owner D,RC,2026-08-16,2026-09-20,,Y,N,N,N
+CAPA-0040,Deviation documentation,Site C,Micro Lab,Owner D,VE,2026-07-22,2026-09-16,,Y,Y,Y,N
+CAPA-0041,Hold/release timing,Site A,QA,Owner D,CP,2026-07-03,2026-07-23,,Y,N,N,N
+CAPA-0042,Equipment list mismatch,Site C,QA,Owner A,VE,2026-08-02,2026-09-06,,Y,Y,Y,N
+CAPA-0043,Data backup gaps,Site B,IT/QA,Owner E,VE,2026-08-25,2026-10-11,,Y,Y,Y,Y
+CAPA-0044,Training record gaps,Site A,Micro Lab,Owner C,RC,2026-08-25,2026-09-18,,Y,N,N,N
+CAPA-0045,Environmental monitoring gaps,Site B,Warehouse,Owner B,VE,2026-08-24,2026-10-11,,Y,Y,N,Y
+CAPA-0046,Hold/release timing,Site B,Sanitation,Owner C,VE,2026-07-19,2026-08-17,,Y,Y,Y,Y
+CAPA-0047,Temperature log gaps,Site C,Warehouse,Owner E,RC,2026-09-02,2026-10-24,,N,N,N,N
+CAPA-0048,Deviation documentation,Site B,Sanitation,Owner E,RC,2026-09-15,2026-10-26,,N,N,N,N
+CAPA-0049,Label traceability,Site C,IT/QA,Owner E,VE,2026-08-31,2026-10-10,,Y,Y,Y,N
+CAPA-0050,Deviation documentation,Site C,Packaging,Owner C,PD,2026-09-28,2026-10-21,,N,N,N,N
+CAPA-0051,Hold/release timing,Site C,IT/QA,Owner D,PD,2026-09-21,2026-10-27,,N,N,N,N
+CAPA-0052,Label traceability,Site B,Packaging,Owner B,PD,2026-09-22,2026-11-15,,N,N,N,N
+CAPA-0053,Data backup gaps,Site A,Operations,Owner D,VE,2026-07-23,2026-08-07,,Y,Y,N,Y
+CAPA-0054,Label traceability,Site B,Warehouse,Owner D,VE,2026-07-27,2026-09-14,,Y,Y,Y,N
+CAPA-0055,Equipment list mismatch,Site A,IT/QA,Owner B,VE,2026-07-30,2026-09-05,,Y,Y,Y,Y
+CAPA-0056,Calibration tracking gaps,Site B,Operations,Owner B,VE,2026-08-20,2026-10-07,,Y,Y,Y,N
+CAPA-0057,Temperature log gaps,Site C,IT/QA,Owner A,CP,2026-07-28,2026-09-11,,Y,Y,N,N
+CAPA-0058,Chemical identification gaps,Site B,IT/QA,Owner A,CP,2026-09-16,2026-10-20,,Y,N,N,N
+CAPA-0059,Calibration tracking gaps,Site A,Warehouse,Owner C,PD,2026-07-11,2026-08-09,,N,N,N,N
+CAPA-0060,Sampling SOP update,Site B,Micro Lab,Owner C,PD,2026-08-16,2026-09-28,,N,N,N,N
