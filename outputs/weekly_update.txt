@@ -1,0 +1,13 @@
+Weekly CAPA Triage Summary (Synthetic Portfolio Data)
+====================================================
+Open CAPAs: 54
+Overdue: 31
+Due soon (next 14 days): 9
+Missing closure information: 46
+Closure-ready under demonstration rule: 8
+
+Most common closure blockers:
+- Effectiveness: 41
+- Verification: 38
+- Actions: 25
+- Root Cause: 16
